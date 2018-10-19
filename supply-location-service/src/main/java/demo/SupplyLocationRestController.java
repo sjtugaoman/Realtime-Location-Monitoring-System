@@ -15,9 +15,16 @@ public class SupplyLocationRestController {
     public SupplyLocationRestController(SupplyLocationRepository repository) {
         this.repository = repository;
     }
+
     @RequestMapping(value = "/bulk/supplyLocations", method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.CREATED)
     public void upload(@RequestBody List<SupplyLocation> locations ) {
+
         this.repository.saveAll(locations);
+    }
+
+    @RequestMapping(value = "/purge", method = RequestMethod.DELETE)
+    public void delete() {
+        this.repository.deleteAll();
     }
 }
