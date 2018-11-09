@@ -1,5 +1,8 @@
 package demo.model;
 
+import lombok.Data;
+
+@Data
 public class PositionInfo {
 
     private String runningId;
@@ -11,4 +14,8 @@ public class PositionInfo {
     private double distanceFromStart;
 
     private double speed;
+
+    public PositionInfo() {
+
+    }
 }

@@ -1,6 +1,5 @@
 package demo.model;
 
-import com.sun.tools.internal.jxc.SchemaGenerator;
 import lombok.Data;
 
 @Data
