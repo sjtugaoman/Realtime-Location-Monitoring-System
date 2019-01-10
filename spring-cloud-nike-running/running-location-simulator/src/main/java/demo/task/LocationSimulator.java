@@ -1,14 +1,22 @@
 package demo.task;
 
 import demo.model.*;
+import demo.service.PositionService;
+import demo.support.NavUtils;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class LocationSimulator implements Runnable{
+    @Getter
+    @Setter
     private long id;
 
+    @Setter
+    private PositionService positionService;
     private AtomicBoolean cancel = new AtomicBoolean();
 
     private double speedInMps;
@@ -17,12 +25,16 @@ public class LocationSimulator implements Runnable{
     private boolean exportPositionToMessaging = true;
     private Integer reportInterval = 500;
 
+    @Getter
+    @Setter
     private PositionInfo currentPosition = null;
 
+    @Setter
     private List<Leg> legs;
     private RunnerStatus runnerStatus = RunnerStatus.NONE;
     private String runningId;
 
+    @Setter
     private Point startPoint;
     private Date executionStartTime;
 
@@ -84,7 +96,8 @@ public class LocationSimulator implements Runnable{
                             medicalInfoToUse);
 
                     //send current position to distribution service via REST API
-                    //@TODO: implement position info service
+                    //implement position info service
+                    positionService.processPositionInfo(id, currentPosition, this.exportPositionToMessaging);
 
                 }
                 sleep(startTime);          //wait until next position report
@@ -126,7 +139,7 @@ public class LocationSimulator implements Runnable{
                 //this means new position falls within current leg
                 currentPosition.setDistanceFromStart(distanceFromStart);
                 currentPosition.setLeg(currentLeg);
-                Point newPosition = null;
+                Point newPosition = NavUtils.getPosition(currentLeg.getStartPosition(), distanceFromStart, currentLeg.getHeading());
                 currentPosition.setPosition(newPosition);
                 return;
             }
@@ -145,5 +158,13 @@ public class LocationSimulator implements Runnable{
         currentPosition.setLeg(leg);
         currentPosition.setPosition(leg.getStartPosition());
         currentPosition.setDistanceFromStart(0.0);
+    }
+
+    public double getSpeed() {
+        return this.speedInMps;
+    }
+
+    public synchronized void cancel() {
+        this.cancel.set(true);
     }
 }
