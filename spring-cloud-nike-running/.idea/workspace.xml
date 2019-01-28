@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f599afee-b93b-4038-876b-90b06ab6d55f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/running-location-updater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-updater/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running-location-distribution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-distribution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running-location-simulator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-simulator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +32,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -40,31 +41,20 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platform/eureka/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="358">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platform/hystrix-dashboard/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -76,6 +66,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -91,7 +82,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/running-location-simulator/pom.xml" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/Point.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/RunnerStatus.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/CurrentPosition.java" />
@@ -106,14 +96,11 @@
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulatorInstance.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java" />
-        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/SimulatorInitLocations.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/PathService.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultPathService.java" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/rest/LocationSimulatorRestApi.java" />
-        <option value="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java" />
         <option value="$PROJECT_DIR$/running-location-distribution/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/running-location-distribution/pom.xml" />
         <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/impl/DefaultGpsSimulatorFactory.java" />
         <option value="$PROJECT_DIR$/docker.compose.yml" />
         <option value="$PROJECT_DIR$/running-location-updater/pom.xml" />
@@ -122,8 +109,13 @@
         <option value="$PROJECT_DIR$/running-location-updater/src/main/java/demo/RunningLocationUpdaterSink.java" />
         <option value="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunnerPositionSource.java" />
         <option value="$PROJECT_DIR$/platform/pom.xml" />
-        <option value="$PROJECT_DIR$/platform/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/platform/eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EnableEurekaServer.java" />
+        <option value="$PROJECT_DIR$/running-location-simulator/pom.xml" />
+        <option value="$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java" />
+        <option value="$PROJECT_DIR$/running-location-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java" />
+        <option value="$PROJECT_DIR$/platform/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EurekaApplication.java" />
       </list>
     </option>
@@ -145,7 +137,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="21" />
+    <option name="y" value="385" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -214,7 +207,51 @@
               <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
+              <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-nike-running" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-nike-running" type="462c0819:PsiDirectoryNode" />
+              <item name="running-location-distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,6 +260,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -230,7 +273,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="eurekademo" />
+    </key>
+  </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -242,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SimulatorServiceApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -261,6 +314,16 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eurekademo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eurekademo.EurekaApplication" />
     </configuration>
     <configuration name="RunningLocationUpdaterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="running-location-updater" />
@@ -295,7 +358,13 @@
     <list>
       <item itemvalue="Spring Boot.SimulatorServiceApplication" />
       <item itemvalue="Spring Boot.RunningLocationUpdaterApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -331,12 +400,16 @@
       <workItem from="1548661511174" duration="363000" />
       <workItem from="1548661878813" duration="40000" />
       <workItem from="1548661922246" duration="57000" />
-      <workItem from="1548700981253" duration="1885000" />
+      <workItem from="1548700981253" duration="2429000" />
+      <workItem from="1548706546353" duration="364000" />
+      <workItem from="1548706915174" duration="702000" />
+      <workItem from="1548710331398" duration="299000" />
+      <workItem from="1548710635722" duration="429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42235000" />
+    <option name="totallyTimeSpent" value="44573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,11 +421,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="21" y="385" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50500715" side_tool="true" visible="true" weight="0.20384616" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32948717" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="1" />
@@ -363,21 +436,22 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15384616" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4970703" weight="0.32948717" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49928468" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32948717" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49499285" visible="true" weight="0.20384616" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26466382" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49356222" weight="0.20384616" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27181688" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32921812" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4970703" weight="0.329806" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -399,13 +473,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/model/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/task/LocationSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -480,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -581,24 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/service/GpsSimulatorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="99" selection-start-line="11" selection-start-column="99" selection-end-line="11" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -651,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="82" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/running-location-updater/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -690,11 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,36 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -771,6 +776,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EnableEurekaServer.java" />
+    <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-distribution/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-distribution/src/main/java/demo/RunningLocationDistributionApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/running-location-simulator/src/main/java/demo/SimulatorServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platform/eureka/src/main/java/eurekademo/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

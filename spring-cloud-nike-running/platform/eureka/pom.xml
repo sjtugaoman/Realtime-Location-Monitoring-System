@@ -7,6 +7,7 @@
         <groupId>spring-boot-starter-parent</groupId>
         <version>1.4.5.RELEASE</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mangao</groupId>
@@ -30,7 +31,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
 
